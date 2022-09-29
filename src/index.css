@@ -42,3 +42,32 @@ body {
 .absolute {
     position: absolute;
 }
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cursor {
+    color: white;
+}
+
+.bottom-centered {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55px;
+}
+
+.texture-select {
+    transform: scale(5);
+}
+
+.texture-select  img.active{
+    border: 2px solid red;
+}
+
+.menu {
+    top: 10px;
+    left: 10px;
+}
